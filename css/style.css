@@ -2,6 +2,55 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Header prop */
+.container_nav_ms{
+    background-color: #2c3e50;
+}
+
+    .header_ms{
+        padding: 20px 0;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .nav_ms{
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+/* Jumbotron */
+.container_jumbotron_ms{
+    background-color: #1abc9c;
 }
 
 /* DEBUG */
+
+    .container{
+        outline: black 1px solid;
+    }
+
+    [class*="col"] {
+        outline: black 1px solid;
+    }
+
+    /* Jumbotron */
+
+
+        .jumbo_pic{
+            height: 400px;
+        }
+
+        .jumbo_title{
+            height: 100px;
+        }
+
+        .jumbo_decoration{
+            height: 50px;
+        }
+
+        .jumbo_descr{
+            height: 50px;
+        }
