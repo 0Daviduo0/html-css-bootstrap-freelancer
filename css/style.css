@@ -53,4 +53,23 @@
 
         .jumbo_descr{
             height: 50px;
+            margin-bottom: 50px;
+        }
+
+        /* Main */
+        .main_container{
+            margin-top: 20px
+        }
+
+        .main_title{
+            height: 100px;
+        }
+
+        .main_decoration{
+            height: 50px;
+        }
+
+        .main_block{
+            background-color: antiquewhite;
+            height: 100px;
         }
