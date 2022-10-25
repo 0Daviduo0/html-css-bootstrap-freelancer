@@ -135,3 +135,35 @@
                     background-color: antiquewhite;
                     height: 50px;
                 }
+
+            /* Company */
+            .container_company{
+                padding: 20px 0;
+                background-color: #3a546d;
+            }
+
+                .location_block{
+                    background-color: antiquewhite;
+                    height: 100px;
+                }
+
+                .social_links_block{
+                    background-color: antiquewhite;
+                    height: 100px;
+                }
+
+                .freelancer_block{
+                    background-color: antiquewhite;
+                    height: 100px;
+                }
+
+            /* Copyright */
+            .container_copyright{
+                padding: 20px 0;
+                background-color: #2c3e50;
+            }
+
+                .copyright_block{
+                    background-color: antiquewhite;
+                    height: 100px;
+                }
