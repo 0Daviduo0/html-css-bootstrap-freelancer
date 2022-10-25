@@ -21,11 +21,6 @@
         font-size: 30px;
     }
 
-/* Jumbotron */
-.container_jumbotron_ms{
-    background-color: #1abc9c;
-}
-
 /* DEBUG */
 
     .container{
@@ -37,7 +32,9 @@
     }
 
     /* Jumbotron */
-
+.container_jumbotron{
+    background-color: #1abc9c;
+}
 
         .jumbo_pic{
             height: 400px;
@@ -57,7 +54,7 @@
         }
 
         /* Main */
-        .main_container{
+        .container_main{
             margin-top: 20px
         }
 
@@ -72,4 +69,31 @@
         .main_block{
             background-color: antiquewhite;
             height: 100px;
+        }
+
+        /* About */
+    .container_about{
+        background-color: #1abc9c;
+        margin-top: 20px;
+    }
+        .about_container{
+            margin-top: 20px
+        }
+
+        .about_title{
+            height: 100px;
+        }
+
+        .about_decoration{
+            height: 50px;
+        }
+
+        .about_block{
+            background-color: antiquewhite;
+            height: 200px;
+        }
+
+        .download_block{
+            background-color: antiquewhite;
+            height: 50px;
         }
