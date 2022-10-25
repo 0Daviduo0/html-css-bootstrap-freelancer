@@ -97,3 +97,41 @@
             background-color: antiquewhite;
             height: 50px;
         }
+
+        /* Contact me */
+        .contect_container{
+            margin-top: 20px;
+        }
+
+            .contact_title{
+                height: 100px;
+            }
+
+            .contact_decoration{
+                height: 50px;
+            }
+
+                .name_block{
+                    background-color: antiquewhite;
+                    height: 50px;
+                }
+
+                .email_block{
+                    background-color: antiquewhite;
+                    height: 50px;
+                }
+
+                .phone_block{
+                    background-color: antiquewhite;
+                    height: 50px;
+                }
+
+                .message_block{
+                    background-color: antiquewhite;
+                    height: 200px;
+                }
+
+                .send_button_block{
+                    background-color: antiquewhite;
+                    height: 50px;
+                }
