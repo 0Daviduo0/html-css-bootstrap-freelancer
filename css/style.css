@@ -77,6 +77,18 @@ a{
     text-align: center;
 }
 
+    .img_block_cont{
+        border-radius: 20px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+/* About */
+.container_about{
+    background-color: #1abc9c;
+    margin-top: 50px;
+}
+
 
 /* DEBUG */
 
@@ -124,16 +136,13 @@ a{
             height: 50px;
         }
 
-        .main_block{
+        /* .main_block{
             background-color: antiquewhite;
             height: 100px;
-        }
+        } */
 
         /* About */
-    .container_about{
-        background-color: #1abc9c;
-        margin-top: 20px;
-    }
+    
         .about_container{
             margin-top: 20px
         }
