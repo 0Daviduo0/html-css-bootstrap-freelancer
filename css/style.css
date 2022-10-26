@@ -33,6 +33,10 @@ a{
         color: #000;
     }
 
+    .text_decoration_cyan{
+        color: #19bf9d;
+    }
+
     /* txt bold */
     .text_bold{
         font-weight: bold;
@@ -123,9 +127,11 @@ a{
             font-size: 20px;
         }
 
-            .padding_for_icon{
-                padding-right: 10px;
+            .download_button{
+                margin-bottom: 50px;
             }
+
+
 
 /* Contact me */
 .contect_container{
@@ -142,15 +148,46 @@ a{
         margin-bottom: 50px;
     }
 
+/* Company */
+.container_company{
+    padding: 20px 0;
+    background-color: #3a546d;
+}
+
+    .comp_block_cont{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+        .social_bubble{
+            min-width: 45px;
+            max-width: 45px;
+            padding: 10px;
+            border-radius: 50%;
+            border: #fff solid 1px;
+            margin: 5px;
+        }
+
+/* Copyright */
+.container_copyright{
+    padding: 20px 0;
+    background-color: #2c3e50;
+}
+
+    .copyright_block{
+        font-size: 15px;
+    }
+
+
 /* DEBUG */
 
-    .container{
+    /* .container{
         outline: black 1px solid;
     }
 
     [class*="col"] {
         outline: black 1px solid;
-    }
+    } */
 
        
 
@@ -247,12 +284,8 @@ a{
                 } */
 
             /* Company */
-            .container_company{
-                padding: 20px 0;
-                background-color: #3a546d;
-            }
-
-                .location_block{
+            
+                /* .location_block{
                     background-color: antiquewhite;
                     height: 100px;
                 }
@@ -265,15 +298,11 @@ a{
                 .freelancer_block{
                     background-color: antiquewhite;
                     height: 100px;
-                }
+                } */
 
             /* Copyright */
-            .container_copyright{
-                padding: 20px 0;
-                background-color: #2c3e50;
-            }
-
-                .copyright_block{
+            
+                /* .copyright_block{
                     background-color: antiquewhite;
                     height: 100px;
-                }
+                } */
