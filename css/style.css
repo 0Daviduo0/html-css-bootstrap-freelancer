@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+.border{
+    border: #000 solid 1px;
+}
+
     /* txt color */
     .text_decoration_white{
         color: #fff;
@@ -35,6 +39,16 @@ a{
         display: flex;
         justify-content: center;
     }
+
+    .ms_text_center{
+        text-align: center;
+    }
+
+     /* BOOTSTRAP COMPONENt */
+     .navbar-collapse{
+        flex-grow: 0;
+    }
+
 
 /* Header prop */
 .container_nav_ms{
@@ -84,10 +98,30 @@ a{
     }
 
 /* About */
-.container_about{
-    background-color: #1abc9c;
-    margin-top: 50px;
+.about_container{
+    margin-top: 20px
 }
+
+    .container_about{
+        background-color: #1abc9c;
+        margin-top: 50px;
+    }
+
+        .about_tit_inside{
+            margin-top: 50px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .about_descr{
+            margin-bottom: 30px;
+            padding: 0 30px;
+            font-size: 20px;
+        }
+
+            .download_icon{
+                padding-right: 10px;
+            }
 
 
 /* DEBUG */
@@ -100,10 +134,7 @@ a{
         outline: black 1px solid;
     }
 
-        /* BOOTSTRAP COMPONENt */
-        .navbar-collapse{
-            flex-grow: 0;
-        }
+       
 
     /* Jumbotron */
 .container_jumbotron{
@@ -141,21 +172,18 @@ a{
             height: 100px;
         } */
 
+
         /* About */
     
-        .about_container{
-            margin-top: 20px
-        }
-
-        .about_title{
+        /* .about_title{
             height: 100px;
-        }
+        } */
 
         .about_decoration{
             height: 50px;
         }
 
-        .about_block{
+        /* .about_block{
             background-color: antiquewhite;
             height: 200px;
         }
@@ -163,7 +191,7 @@ a{
         .download_block{
             background-color: antiquewhite;
             height: 50px;
-        }
+        } */
 
         /* Contact me */
         .contect_container{
