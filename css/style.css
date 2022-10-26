@@ -19,6 +19,10 @@ a{
     border: #000 solid 1px;
 }
 
+.padding_for_icon{
+    padding-right: 10px;
+}
+
     /* txt color */
     .text_decoration_white{
         color: #fff;
@@ -119,10 +123,24 @@ a{
             font-size: 20px;
         }
 
-            .download_icon{
+            .padding_for_icon{
                 padding-right: 10px;
             }
 
+/* Contact me */
+.contect_container{
+    margin-top: 20px;
+}
+
+    .about_tit_inside{
+        margin-top: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .send_button_block{
+        margin-bottom: 50px;
+    }
 
 /* DEBUG */
 
@@ -194,19 +212,16 @@ a{
         } */
 
         /* Contact me */
-        .contect_container{
-            margin-top: 20px;
-        }
 
-            .contact_title{
+            /* .contact_title{
                 height: 100px;
-            }
+            } */
 
             .contact_decoration{
                 height: 50px;
             }
 
-                .name_block{
+                /* .name_block{
                     background-color: antiquewhite;
                     height: 50px;
                 }
@@ -224,12 +239,12 @@ a{
                 .message_block{
                     background-color: antiquewhite;
                     height: 200px;
-                }
+                } */
 
-                .send_button_block{
+                /* .send_button_block{
                     background-color: antiquewhite;
                     height: 50px;
-                }
+                } */
 
             /* Company */
             .container_company{
