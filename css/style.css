@@ -5,18 +5,36 @@
     font-family: 'Kanit', sans-serif;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}
+
 a{
     color: #fff;
     text-decoration: none;
 }
 
-.text_decoration_white{
-    color: #fff;
-}
+    /* txt color */
+    .text_decoration_white{
+        color: #fff;
+    }
 
-.text_bold{
-    font-weight: bold;
-}
+
+    .text_decoration_black{
+        color: #000;
+    }
+
+    /* txt bold */
+    .text_bold{
+        font-weight: bold;
+    }
+
+    /* align */
+    .ms_center{
+        display: flex;
+        justify-content: center;
+    }
 
 /* Header prop */
 .container_nav_ms{
@@ -33,6 +51,32 @@ a{
         padding: 20px 0;
         font-size: 30px;
     }
+
+/* Jumbotron */
+.jumbo_pic{
+    height: 400px;
+}
+
+.ju_title_inside{
+    padding: 20 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.ju_descr_inside{
+    padding: 20 0;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Main */
+.main_tit_inside{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
 
 /* DEBUG */
 
@@ -54,31 +98,27 @@ a{
     background-color: #1abc9c;
 }
 
-        .jumbo_pic{
-            height: 400px;
-        }
-
-        .jumbo_title{
+        /* .jumbo_title{
             height: 100px;
-        }
+        } */
 
         .jumbo_decoration{
             height: 50px;
         }
 
-        .jumbo_descr{
+        /* .jumbo_descr{
             height: 50px;
             margin-bottom: 50px;
-        }
+        } */
 
         /* Main */
-        .container_main{
+        /* .container_main{
             margin-top: 20px
-        }
+        } */
 
-        .main_title{
+        /* .main_title{
             height: 100px;
-        }
+        } */
 
         .main_decoration{
             height: 50px;
